@@ -1,0 +1,26 @@
+---
+- name: Ansible Playbook -> Dell OS10 PLAY
+  hosts: switches
+  
+  #no gather facts -> faster \\ also gathering = explicit set under ansible.cfg
+  #gather_facts: no
+  
+  #type of connection to the switches
+  #connection: ssh
+  #connection: netowrk_cli
+  
+  #declare the collections -> enable role/plugin
+  #collections:
+  #  - dellemc.os10
+
+#static variable  
+  vars: 
+     hostname: Dell-OS10
+
+#task number-1 
+  tasks:
+    - name: "set new hostname"
+      dellos10_config:
+        commands:
+          - hostname "{{ hostname }}"
+...
