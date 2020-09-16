@@ -3,19 +3,15 @@
   hosts: switches
   
   #no gather facts -> faster \\ also gathering = explicit set under ansible.cfg
-  #gather_facts: no
+  gather_facts: no
   
   #type of connection to the switches
   #connection: ssh
-  #connection: netowrk_cli
-  
-  #declare the collections -> enable role/plugin
-  #collections:
-  #  - dellemc.os10
+  connection: netowrk_cli
 
 #static variable  
   vars: 
-     hostname: Dell-OS10
+     hostname: newNAME
 
 #task number-1 
   tasks:
