@@ -11,7 +11,7 @@
 
 #static variable  
   vars: 
-     hostname: newNAME
+     hostname: NEW-newNAME
 
 #task number-1 
   tasks:
