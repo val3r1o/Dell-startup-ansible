@@ -1,7 +1,8 @@
 ---
-- name: Ansible Playbook -> Dell OS10 PLAY
+- name: Ansible Playbook -> Show Version Dell OS10 PLAY
   hosts: OS10-1 OS10-2
   connection: network_cli
+  gather_facts: false
 
 #task number-1
   tasks:
@@ -9,5 +10,8 @@
       dellos10_command: 
         commands: 
         -  show version
-        -  show interface 
+#        -  show interface
+      register: show_ver
+    
+    - debug: var=show_ver
 ...
