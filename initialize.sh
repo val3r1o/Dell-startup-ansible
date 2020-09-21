@@ -22,14 +22,7 @@ source ~/opt/dellos10ansible/bin/activate
 pip3 install ansible
 source ~/opt/dellos10ansible/bin/activate
 
-sudo apt install git
-
 sudo apt autoremove
-
-git clone https://github.com/val3r1o/startupdellos10ansible_env.git
-
-cd startupdellos10ansible_env
-sudo chmode 755 initialize.sh
 
 ansible --version
 
