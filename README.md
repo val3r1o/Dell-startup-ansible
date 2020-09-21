@@ -12,4 +12,4 @@ git clone https://github.com/val3r1o/startupdellos10ansible_env.git
 
 cd startupdellos10ansible_env
 
-sudo chmode 755 initialize.sh
+sudo chmod 755 initialize.sh
