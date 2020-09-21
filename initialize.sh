@@ -24,6 +24,10 @@ source ~/opt/dellos10ansible/bin/activate
 
 sudo apt autoremove
 
+git clone https://github.com/val3r1o/dellos10evpnsetup.git
+
+cd /dellos10evpnsetup
+
 ansible --version
 
 echo -------------------------------------- Thats all folks "!!" -----------------------------------------------------
