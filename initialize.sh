@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # This is part of automatic Lab setup related to https://github.com/val3r1o/startupdellos10ansible_env.git
 # FRESH UBUNTU 18.04 ##
 echo -----------------------------------------------------------------------------------------------------------------
