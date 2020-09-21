@@ -15,10 +15,9 @@ Run initialize.sh on your Ubuntu it will install all software needed and a very 
 Run the following commands to install git and the the very first file.
 
 
-
 sudo apt install git
 
-git clone https://github.com/val3r1o/startupdellos10ansible_env.git
+git clone https://github.com/val3r1o/startupdellos10ansible.git
 
 cd startupdellos10ansible_env
 
