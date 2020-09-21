@@ -3,7 +3,7 @@
 # FRESH UBUNTU 18.04 ##
 
 echo --------------------------------------------------------------------------------------------------------------
-echo --                            This is an automatic installation of Ansible/Python component                --
+echo --                            This is an automatic installation of Ansible/Python component                 --
 echo --                                                   NETWORKING                                             --
 echo --------------------------------------------------------------------------------------------------------------
 
@@ -26,8 +26,13 @@ sudo apt install git
 
 sudo apt autoremove
 
-#git clone https://github.com/val3r1o/startupdellos10ansible_env.git
+git clone https://github.com/val3r1o/startupdellos10ansible_env.git
+
+cd startupdellos10ansible_env
+sudo chmode 755 initialize.sh
+
+ansible --version
 
 echo -------------------------------------- Thats all folks "!!" -----------------------------------------------------
-echo -------------------------------------- valerio,martini@gmail.com ------------------------------------------------
+echo -------------------------------------- valerio.martini@gmail.com ------------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
