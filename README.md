@@ -19,7 +19,7 @@ sudo apt install git
 
 git clone https://github.com/val3r1o/startupdellos10ansible.git
 
-cd startupdellos10ansible_env
+cd /startupdellos10ansible
 
 sudo chmod 755 initialize.sh
 
