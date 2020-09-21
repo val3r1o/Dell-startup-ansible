@@ -15,5 +15,5 @@ cd startupdellos10ansible_env
 sudo chmod 755 initialize.sh
 
 ls
-# ENTER to start the process ~10 mins
+
 ./initialize.sh
