@@ -13,8 +13,13 @@ Run initialize.sh on your Ubuntu it will install all software needed and a very 
 Run the following commands:
 
 sudo apt install git
+
 git clone https://github.com/val3r1o/startupdellos10ansible_env.git
+
 cd startupdellos10ansible_env
+
 sudo chmod 755 initialize.sh
+
 ls
+
 ./initialize.sh
