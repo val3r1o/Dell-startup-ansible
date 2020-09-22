@@ -12,13 +12,13 @@ sudo apt install ssh
 sudo apt-get install software-properties-common
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt install -y virtualenv
-virtualenv -p python3.6 ~/opt/dellos10env
-pip3 install ansible
+sudo virtualenv -p python3.6 ~/opt/dellos10env
+sudo pip3 install ansible
 sudo pip3 install paramiko
 sudo apt autoremove
-git clone https://github.com/val3r1o/dellos10conf-evpn.git
-git clone https://github.com/val3r1o/dellos10conf-vlanvni.git
-source ~/opt/dellos10env/bin/activate
+sudo git clone https://github.com/val3r1o/dellos10conf-evpn.git
+sudo git clone https://github.com/val3r1o/dellos10conf-vlanvni.git
+sudo source ~/opt/dellos10env/bin/activate
 echo 
 ansible --version
 echo ------------------------------------- MAKE SURE YOU ARE UNDER ---------------------------------------------------
