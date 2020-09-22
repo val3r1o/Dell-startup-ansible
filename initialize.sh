@@ -21,7 +21,7 @@ sudo apt autoremove
 git clone https://github.com/val3r1o/dellos10conf-evpn.git
 git clone https://github.com/val3r1o/dellos10conf-vlanvni.git
 cd
-source ./opt/dellos10env/bin/activate
+source ~/opt/dellos10env/bin/activate
 echo 
 ansible --version
 echo
@@ -29,4 +29,6 @@ echo ---------------------------------------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 echo -------------------------------------- Thats all folks "!!" -----------------------------------------------------
 echo ----------------------------------- valerio.martini@gmail.com ---------------------------------------------------
-echo 
+echo -----------------------------------------------------------------------------------------------------------------
+echo ... remember to enter virtual env -> $ source ~/opt/dellos10env/bin/activate ... 
+echo
