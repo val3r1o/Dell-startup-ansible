@@ -18,9 +18,8 @@ source ~/opt/dellos10env/bin/activate
 pip3 install ansible
 pip3 install paramiko
 sudo apt autoremove
-git clone https://github.com/val3r1o/dellos10conf-evpn.git
-git clone https://github.com/val3r1o/dellos10conf-vlanvni.git
-cd
+git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
+
 source ~/opt/dellos10env/bin/activate
 echo 
 ansible --version
