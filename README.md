@@ -4,11 +4,11 @@ This has been built to simply and speed up your very first Ansible + OS10 projec
 
 TESTED with Ansible 2.9.13 and Python 3.6.9
 
-Prerequisites: 
+# Prerequisites: 
 
-Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
-
-Get an Ubuntu 18.04 fresh installed.
+- Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
+- GNS3project will be share when the project is completed
+- Get an Ubuntu 18.04 fresh installed.
 
 Run initialize.sh on your Ubuntu it will install all software needed and a very basic Config_host name Ansible Playbook. 
 
