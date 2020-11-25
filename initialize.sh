@@ -8,6 +8,8 @@ echo ---------------------------------------------------------------------------
 cd
 sudo apt update
 sudo apt install net-tools
+sudo apt purge openssh-client
+sudo apt purge openssh-server
 sudo apt install openssh-server
 sudo apt-get install software-properties-common
 sudo apt-add-repository --yes --update ppa:ansible/ansible
