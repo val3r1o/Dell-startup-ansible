@@ -7,7 +7,6 @@ echo ---------------------------------------------------- NETWORKING -----------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
 sudo apt update
-sudo apt-get update
 sudo apt install net-tools
 sudo apt install ssh
 sudo apt-get install software-properties-common
