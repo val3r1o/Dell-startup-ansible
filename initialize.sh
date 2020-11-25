@@ -8,7 +8,7 @@ echo ---------------------------------------------------------------------------
 cd
 sudo apt update
 sudo apt install net-tools
-sudo apt install ssh
+sudo apt install openssh-server
 sudo apt-get install software-properties-common
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt install -y virtualenv
