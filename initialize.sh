@@ -6,6 +6,7 @@ echo ---------------------------- This is an automatic installation of Ansible/P
 echo ---------------------------------------------------- NETWORKING -------------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
+sudo apt update
 sudo apt-get update
 sudo apt install net-tools
 sudo apt install ssh
