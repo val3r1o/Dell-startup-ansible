@@ -1,5 +1,5 @@
 ---
-#Basic info to access OS10 - default
+#Basic info to access OS10 - default psw
 ansible_ssh_user: admin
 ansible_ssh_pass: admin
 ansible_connection: network_cli
