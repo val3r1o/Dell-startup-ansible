@@ -24,9 +24,9 @@ git clone https://github.com/val3r1o/startupdellos10ansible.git
 
 #git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
-cd
 sudo su
-source /opt/dellos10env/bin/activate
+cd
+source /home/valerio/opt/dellos10env/bin/activate
 
 echo 
 ansible --version
