@@ -30,3 +30,5 @@ ls
 source ~/opt/dellos10env/bin/activate
 
 ansible --version
+
+ansible-playbook -i inventory conf-hostname.yml
