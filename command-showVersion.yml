@@ -1,6 +1,6 @@
 ---
 - name: Ansible Playbook -> Show Version Dell OS10 PLAY
-  hosts: OS10-1 OS10-2
+  hosts: switches
   connection: network_cli
   gather_facts: false
 
