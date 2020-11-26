@@ -27,6 +27,6 @@ ls
 
 ./initialize.sh
 
-source /home/valerio/opt/dellos10env/bin/activate
+source ~/opt/dellos10env/bin/activate
 
 ansible --version
