@@ -22,7 +22,11 @@ pip3 install paramiko
 sudo apt autoremove
 git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
-source ~/opt/dellos10env/bin/activate
+SRC=`type -tP source`
+echo $SRC
+
+#source ~/opt/dellos10env/bin/activate
+
 echo 
 ansible --version
 echo
