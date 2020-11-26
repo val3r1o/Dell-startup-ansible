@@ -7,6 +7,7 @@ echo ---------------------------------------------------- NETWORKING -----------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
 sudo apt update
+echo sudo apt update
 sudo apt install net-tools
 sudo apt purge openssh-client
 sudo apt purge openssh-server
@@ -20,8 +21,7 @@ pip3 install ansible
 pip3 install paramiko
 sudo apt autoremove
 
-git clone https://github.com/val3r1o/startupdellos10ansible.git
-
+# add MORE REPOSITORY 
 #git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
 sudo su
