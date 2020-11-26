@@ -24,7 +24,7 @@ sudo apt autoremove
 # add MORE REPOSITORY 
 #git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
-sudo su
+cd
 cd
 source /home/valerio/opt/dellos10env/bin/activate
 
