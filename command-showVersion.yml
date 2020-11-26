@@ -9,8 +9,9 @@
     - name: get show version
       dellos10_command: 
         commands: 
-        -  show system version
+#        -  show system version
         -  show ip interface brief
+        -  show interface vlan | grep up
       register: show_ver
     
     - debug: var=show_ver
