@@ -23,6 +23,8 @@ sudo apt autoremove
 git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
 SRC=`type -tP source`
+SRC=`whereis source`
+
 echo $SRC
 
 #source ~/opt/dellos10env/bin/activate
