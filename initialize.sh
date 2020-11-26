@@ -16,18 +16,17 @@ sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt install -y virtualenv
 virtualenv -p python3.6 ~/opt/dellos10env
 cd
-source ~/opt/dellos10env/bin/activate
 pip3 install ansible
 pip3 install paramiko
 sudo apt autoremove
-git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
-SRC=`type -tP source`
-SRC=`whereis source`
+git clone https://github.com/val3r1o/startupdellos10ansible.git
 
-echo $SRC
+#git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 
-#source ~/opt/dellos10env/bin/activate
+cd
+sudo su
+source /opt/dellos10env/bin/activate
 
 echo 
 ansible --version
