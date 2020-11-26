@@ -9,7 +9,7 @@
     - name: get show version
       dellos10_command: 
         commands: 
-#        -  show version
+        -  show system version
         -  show ip interface brief
       register: show_ver
     
