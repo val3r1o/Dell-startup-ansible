@@ -26,3 +26,7 @@ sudo chmod 755 initialize.sh
 ls
 
 ./initialize.sh
+
+source /home/valerio/opt/dellos10env/bin/activate
+
+ansible --version
