@@ -35,7 +35,8 @@ pip3 install paramiko
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
 echo ----------------------------------------------------------- add MORE REPOSITORY 
-git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
+echo git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
+git clone https://github.com/ansible-collections/dellemc.os10
 echo ----------------------------------------------------------- source ~/opt/dellos10env/bin/activate
 source ~/opt/dellos10env/bin/activate
 echo ----------------------------------------------------------- ansible --version
