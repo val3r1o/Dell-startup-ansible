@@ -3,7 +3,7 @@
 # FRESH UBUNTU 18.04 ##
 echo -----------------------------------------------------------------------------------------------------------------
 echo ---------------------------- This is an automatic installation of Ansible/Python component ----------------------
-echo ---------------------------------------------------- NETWORKING -------------------------------------------------
+echo ---------------------------------------------------- Dell NETWORKING --------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
 echo ----------------------------------------------------------- sudo apt update
@@ -35,7 +35,6 @@ pip3 install paramiko
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
 echo ----------------------------------------------------------- add MORE REPOSITORY 
-echo git clone https://github.com/Dell-Networking/ansible-dellos-examples.git
 git clone https://github.com/ansible-collections/dellemc.os10
 echo ----------------------------------------------------------- source ~/opt/dellos10env/bin/activate
 source ~/opt/dellos10env/bin/activate
