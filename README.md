@@ -2,7 +2,7 @@ Dell OS10 Ansible Environment
 
 This has been built to simply and speed up your very first Ansible + OS10 project
 
-TESTED with Ansible 2.9.13 and Python 3.6.9
+TESTED with Ansible 2.10 and Python 3.6.9 (Roles) - Colections test to be run.
 
 # Prerequisites: 
 
