@@ -16,8 +16,9 @@ It will create folder structure for a very basic Config_host name Ansible Playbo
 It will clone the official Ansible Dell Networking repository.
 
 Run the following commands to install git and the the very first file.
+--------------------------------------------------------------------------------------------
+sudo apt install git
 
-sudo apt install git /n
 git clone https://github.com/val3r1o/startupdellos10ansible.git
 
 cd startupdellos10ansible
@@ -32,5 +33,6 @@ source ~/opt/dellos10env/bin/activate
 
 Now, you are ready to go, test ansible version under VirtualEnv and run first basic Ansible command.
 
-ansible --version /n
+ansible --version
+
 ansible-playbook -i inventory conf-hostname.yml
