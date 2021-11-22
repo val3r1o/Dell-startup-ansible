@@ -20,7 +20,7 @@ sudo apt install git
 
 git clone https://github.com/val3r1o/os10-startup-ansible.git
 
-cd startupdellos10ansible
+cd os10-startup-ansible
 
 sudo chmod 755 initialize.sh
 
