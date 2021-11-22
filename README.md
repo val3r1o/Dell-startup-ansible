@@ -18,7 +18,7 @@ It will clone the official Ansible Dell Networking repository (Full L3 BGP Fabri
 --------------------------------------------------------------------------------------------
 sudo apt install git
 
-git clone https://github.com/val3r1o/startupdellos10ansible.git
+git clone https://github.com/val3r1o/os10-startup-ansible.git
 
 cd startupdellos10ansible
 
