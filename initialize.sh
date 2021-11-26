@@ -6,8 +6,8 @@ echo ---------------------------- This is an automatic installation of Ansible/P
 echo ---------------------------------------------------- Dell NETWORKING --------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
-echo ----------------------------------------------------------- sudo apt update
-sudo apt update
+# echo ----------------------------------------------------------- sudo apt update
+# sudo apt update
 echo ----------------------------------------------------------- sudo apt install net-tools
 sudo apt install net-tools
 #echo ----------------------------------------------------------- sudo apt purge openssh-client
@@ -36,6 +36,8 @@ echo ----------------------------------------------------------- sudo apt autore
 sudo apt autoremove
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
+git clone https://github.com/val3r1o/os10-config-backup
+git clone https://github.com/val3r1o/os10-config-push
 echo ----------------------------------------------------------- source ~/opt/dellos10env/bin/activate
 source ~/opt/dellos10env/bin/activate
 echo ----------------------------------------------------------- ansible --version
