@@ -29,9 +29,10 @@ sudo apt-add-repository --yes --update ppa:ansible/ansible
 echo ----------------------------------------------------------- sudo apt install python3-pip
 sudo apt install python3-pip
 echo ----------------------------------------------------------- pip3 install ansible
-pip3 install ansible
-echo ----------------------------------------------------------- pip3 install paramiko
-pip3 install paramiko
+#pip3 install ansible
+sudo apt install ansible
+# echo ----------------------------------------------------------- pip3 install paramiko
+# pip3 install paramiko
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
 echo ----------------------------------------------------------- add MORE REPOSITORY 
