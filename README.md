@@ -33,4 +33,4 @@ Now, you are ready to go, test ansible version under VirtualEnv and run first ba
 
 ansible --version
 
-ansible-playbook -i inventory conf-hostname.yml
+ansible-playbook -i inventory command-show.yml
