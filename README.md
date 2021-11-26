@@ -6,8 +6,8 @@ NOTE: Colections test to be done. It is backcompatible to use Roles.
 
 # Prerequisites: 
 - Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
-- GNS3project will be share when the project is completed
-- Get an Ubuntu 18.04 fresh installed.
+- you are welcome to use this GNS3 autoconfig project: https://github.com/val3r1o/gns3-automation-OS10fabric 
+- Get an Ubuntu 18.04 or 20.04 fresh installed.
 
 # Description: 
 Run the initialize.sh script on your Ubuntu, It will install this repository and all software dependencies needed for a Ansible Control Node.
