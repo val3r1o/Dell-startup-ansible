@@ -22,8 +22,8 @@ echo ----------------------------------------------------------- pip3 install an
 sudo apt install ansible
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
-# echo ----------------------------------------------------------- Install Collections
-# ansible-galaxy install Dell-Networking
+echo ----------------------------------------------------------- Install Collections
+sudo ansible-galaxy collection install dellemc.os10
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
 git clone https://github.com/val3r1o/os10-config-backup
