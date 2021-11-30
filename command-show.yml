@@ -6,7 +6,7 @@
 
 #task number-1
   tasks:
-    - name: get show version
+    - name: get INTERFACE INFO
       dellos10_command: 
         commands: 
 #        -  show system version
