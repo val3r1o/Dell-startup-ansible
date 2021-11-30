@@ -1,8 +1,7 @@
 # Dell OS10 Ansible Environment
 
-This has been built to simplify and speed up your very first Ansible OS10 project
-TESTED with Ansible 2.10 and Python 3.6.9 (Roles) 
-NOTE: Colections test to be done. It is backcompatible to use Roles.
+moving to collections: </br>
+ansible-galaxy install Dell-Networking.dellos-copy-config
 
 # Prerequisites: 
 - Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
@@ -10,7 +9,8 @@ NOTE: Colections test to be done. It is backcompatible to use Roles.
 - Get an Ubuntu 18.04 or 20.04 fresh installed.
 
 # Description: 
-Run the initialize.sh script on your Ubuntu, It will install this repository and all software dependencies needed for a Ansible Control Node.
+Run the ./initialize.sh script on your Ubuntu. </br>
+It will install this repository and all software dependencies needed for a Ansible Control Node.
 It will create folder structure for a very basic Config_host name Ansible Playbook. 
 It will clone the official Ansible Dell Networking repository (Full L3 BGP Fabric and EVPN Fabric)
 
@@ -30,10 +30,8 @@ ls
 
 ./initialize.sh
 
-source ~/opt/dellos10env/bin/activate
-
 Now, you are ready to go, test ansible version under VirtualEnv and run first basic Ansible command.
 
 ansible --version
 
-ansible-playbook -i inventory conf-hostname.yml
+ansible-playbook -i inventory command-show.yml
