@@ -1,6 +1,4 @@
-#!/bin/bash
-# This is part of automatic Lab setup related to https://github.com/val3r1o/startupdellos10ansible_env.git
-# FRESH UBUNTU 18.04 ##
+# #!/bin/bash
 echo -----------------------------------------------------------------------------------------------------------------
 echo ---------------------------- This is an automatic installation of Ansible/Python component ----------------------
 echo ---------------------------------------------------- Dell NETWORKING --------------------------------------------
@@ -18,27 +16,18 @@ echo ----------------------------------------------------------- sudo apt-get in
 sudo apt-get install software-properties-common
 echo ----------------------------------------------------------- sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt-add-repository --yes --update ppa:ansible/ansible
-# echo ----------------------------------------------------------- sudo apt install -y virtualenv
-# sudo apt install -y virtualenv
-# echo ----------------------------------------------------------- virtualenv -p python3.6 ~/opt/dellos10env
-# virtualenv -p python3.6 ~/opt/dellos10env
-# echo ----------------------------------------------------------- source ~/opt/dellos10env/bin/activate
-# source ~/opt/dellos10env/bin/activate
 echo ----------------------------------------------------------- sudo apt install python3-pip
 sudo apt install python3-pip
 echo ----------------------------------------------------------- pip3 install ansible
-#pip3 install ansible
 sudo apt install ansible
-# echo ----------------------------------------------------------- pip3 install paramiko
-# pip3 install paramiko
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
+# echo ----------------------------------------------------------- Install Collections
+# ansible-galaxy install Dell-Networking
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
 git clone https://github.com/val3r1o/os10-config-backup
 git clone https://github.com/val3r1o/os10-config-push
-# echo ----------------------------------------------------------- source ~/opt/dellos10env/bin/activate
-# source ~/opt/dellos10env/bin/activate
 echo ----------------------------------------------------------- ansible --version
 ansible --version
 echo
