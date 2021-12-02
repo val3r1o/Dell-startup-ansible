@@ -31,6 +31,6 @@ sudo chmod 755 initialize.sh
 
 ./initialize.sh
 
-Now, you are ready to go, test ansible version under VirtualEnv and run first basic Ansible command.
+Now, you are ready to go, test ansible runnig first basic Ansible command.
 
 ansible-playbook -i inventory command-show.yml
