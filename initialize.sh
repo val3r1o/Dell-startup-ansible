@@ -5,21 +5,21 @@ echo ---------------------------------------------------- Dell NETWORKING ------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
 echo ----------------------------------------------------------- sudo apt install net-tools
-sudo apt install net-tools
+sudo apt -y install net-tools
 #echo ----------------------------------------------------------- sudo apt purge openssh-client
 #sudo apt purge openssh-client
 #echo ----------------------------------------------------------- sudo apt purge openssh-server
 #sudo apt purge openssh-server
 echo ----------------------------------------------------------- sudo apt install openssh-server
-sudo apt install openssh-server
+sudo apt -y install openssh-server
 echo ----------------------------------------------------------- sudo apt-get install software-properties-common
-sudo apt-get install software-properties-common
+sudo apt -y install software-properties-common
 echo ----------------------------------------------------------- sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 echo ----------------------------------------------------------- sudo apt install python3-pip
-sudo apt install python3-pip
+sudo apt -y install python3-pip
 echo ----------------------------------------------------------- pip3 install ansible
-sudo apt install ansible
+sudo apt -y install ansible
 echo ----------------------------------------------------------- sudo apt autoremove
 sudo apt autoremove
 echo ----------------------------------------------------------- Install Collections
@@ -35,5 +35,6 @@ echo ---------------------------------------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 echo -------------------------------------- Thats all folks "!!" ------------------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
-echo -----------------------------------------------------------------------------------------------------------------
-echo -----------------------------------------------------------------------------------------------------------------
+echo ------------------------------------------------- Dell NETWORKING ------------------------------------
+echo --------------------------valerio.martini@gmail.com---------------------------------------------------
+echo ------------------------------------------------------------------------------------------------------
