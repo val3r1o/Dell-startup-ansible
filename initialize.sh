@@ -6,10 +6,6 @@ echo ---------------------------------------------------------------------------
 cd
 echo ----------------------------------------------------------- sudo apt install net-tools
 sudo apt -y install net-tools
-#echo ----------------------------------------------------------- sudo apt purge openssh-client
-#sudo apt purge openssh-client
-#echo ----------------------------------------------------------- sudo apt purge openssh-server
-#sudo apt purge openssh-server
 echo ----------------------------------------------------------- sudo apt install openssh-server
 sudo apt -y install openssh-server
 echo ----------------------------------------------------------- sudo apt-get install software-properties-common
