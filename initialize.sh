@@ -21,7 +21,7 @@ sudo apt -y install python3-pip
 echo ----------------------------------------------------------- pip3 install ansible
 sudo apt -y install ansible
 echo ----------------------------------------------------------- sudo apt autoremove
-sudo apt autoremove
+sudo apt -y autoremove
 echo ----------------------------------------------------------- Install Collections
 sudo ansible-galaxy collection install dellemc.os10
 echo ----------------------------------------------------------- add MORE REPOSITORY 
