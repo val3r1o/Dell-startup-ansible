@@ -22,8 +22,7 @@ echo ----------------------------------------------------------- Install Collect
 sudo ansible-galaxy collection install dellemc.os10
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
-git clone https://github.com/val3r1o/os10-config-backup
-git clone https://github.com/val3r1o/os10-config-push
+git clone https://github.com/val3r1o/os10-backup-restore
 echo ----------------------------------------------------------- ansible --version
 ansible --version
 echo
