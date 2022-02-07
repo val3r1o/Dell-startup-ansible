@@ -4,26 +4,26 @@ echo ---------------------------- This is an automatic installation of Ansible/P
 echo ---------------------------------------------------- Dell NETWORKING --------------------------------------------
 echo -----------------------------------------------------------------------------------------------------------------
 cd
-echo ----------------------------------------------------------- sudo apt install net-tools
+echo ----------------------------------------------------------- install net-tools
 sudo apt -y install net-tools
-echo ----------------------------------------------------------- sudo apt install openssh-server
+echo ----------------------------------------------------------- install open ssh server
 sudo apt -y install openssh-server
-echo ----------------------------------------------------------- sudo apt-get install software-properties-common
+echo ----------------------------------------------------------- install software-properties-common
 sudo apt -y install software-properties-common
-echo ----------------------------------------------------------- sudo apt-add-repository --yes --update ppa:ansible/ansible
+echo ----------------------------------------------------------- add-repository --yes --update ppa:ansible/ansible
 sudo apt-add-repository --yes --update ppa:ansible/ansible
-echo ----------------------------------------------------------- sudo apt install python3-pip
+echo ----------------------------------------------------------- install python3
 sudo apt -y install python3-pip
-echo ----------------------------------------------------------- pip3 install ansible
+echo ----------------------------------------------------------- install ansible
 sudo apt -y install ansible
-echo ----------------------------------------------------------- sudo apt autoremove
+echo ----------------------------------------------------------- autoremove packages
 sudo apt -y autoremove
-echo ----------------------------------------------------------- Install Collections
+echo ----------------------------------------------------------- Install dellemc.os10 Collections
 sudo ansible-galaxy collection install dellemc.os10
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
 git clone https://github.com/val3r1o/os10-backup-restore
-echo ----------------------------------------------------------- ansible --version
+echo ----------------------------------------------------------- what ansible version
 ansible --version
 echo
 echo ------------------------------------------------------------------------------------------------------
