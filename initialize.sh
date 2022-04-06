@@ -18,11 +18,10 @@ echo ----------------------------------------------------------- install ansible
 sudo apt -y install ansible
 echo ----------------------------------------------------------- autoremove packages
 sudo apt -y autoremove
-echo ----------------------------------------------------------- Install dellemc.os10 Collections
-sudo ansible-galaxy collection install dellemc.os10
+echo ----------------------------------------------------------- Install dellemc SONiC Collections
+ansible-galaxy collection install dellemc.enterprise_sonic
 echo ----------------------------------------------------------- add MORE REPOSITORY 
-git clone https://github.com/ansible-collections/dellemc.os10
-git clone https://github.com/val3r1o/os10-backup-restore
+git clone https://github.com/ansible-collections/dellemc.enterprise_sonic.git
 echo ----------------------------------------------------------- what ansible version
 ansible --version
 echo
