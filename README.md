@@ -8,7 +8,7 @@ Role and Collections
 
 # Prerequisites: 
 - Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
-- you are welcome to use this GNS3 autoconfig project: https://github.com/val3r1o/gns3-automation-OS10fabric 
+- you are welcome to use this GNS3 autoconfig project: https://github.com/val3r1o/gns3-automation-fabric
 - Get an Ubuntu 18.04 or 20.04 fresh installed.
 
 # Description: 
