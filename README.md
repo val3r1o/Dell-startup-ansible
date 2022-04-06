@@ -3,8 +3,8 @@
 Moving to collections: </br>
 
 This has been built to simplify and speed up your very first Ansible OS10 project
-TESTED with Ansible 2.10 and Python 3.6.9 (Roles) 
-NOTE: Colections test to be done. It is backcompatible to use Roles.
+TESTED with Ansible 2.10+
+Role and Collections
 
 # Prerequisites: 
 - Dell OS10.5.x physical or Virtual Environment i.e., with GNS3
@@ -25,7 +25,7 @@ sudo apt install git
 
 git clone https://github.com/val3r1o/os10-startup-ansible.git
 
-cd os10-startup-ansible
+cd Dell-startup-ansible
 
 sudo chmod 755 initialize.sh
 
