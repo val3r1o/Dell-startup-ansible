@@ -22,7 +22,7 @@ sudo apt update
 
 sudo apt install git
 
-git clone https://github.com/val3r1o/Dell-startup-ansible/tree/SONiC
+git clone --branch SONiC https://github.com/val3r1o/Dell-startup-ansible
 
 cd Dell-startup-ansible
 
