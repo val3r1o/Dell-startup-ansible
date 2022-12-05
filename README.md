@@ -7,8 +7,8 @@ TESTED with Collections Ansible 2.10+
 
 # Prerequisites: 
 - Dell SONiC 3.3 physical or Virtual Environment i.e., with GNS3
-- you are welcome to use this GNS3 autoconfig project: https://github.com/val3r1o/gns3-automation-OS10fabric 
-- Get an Ubuntu 120.04 fresh installed.
+- you are welcome to use this GNS3 autoconfig project: https://github.com/val3r1o/gns3-automation-fabric
+- Get an Ubuntu 20.04 fresh installed.
 
 # Description: 
 Run the ./initialize.sh script on your Ubuntu. </br>
@@ -22,7 +22,7 @@ sudo apt update
 
 sudo apt install git
 
-git clone https://github.com/val3r1o/os10-startup-ansible.git
+git clone https://github.com/val3r1o/Dell-startup-ansible/tree/SONiC
 
 cd Dell-startup-ansible
 
