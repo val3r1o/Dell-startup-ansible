@@ -20,6 +20,8 @@ echo ----------------------------------------------------------- autoremove pack
 sudo apt -y autoremove
 echo ----------------------------------------------------------- Install dellemc.os10 Collections
 sudo ansible-galaxy collection install dellemc.os10
+# patch from January 2023 if SONiC 4.0.x is giving errors
+# sudo ansible-galaxy collection install git+https://github.com/ansible-collection/dellemc.enterprise_sonic.git
 echo ----------------------------------------------------------- add MORE REPOSITORY 
 git clone https://github.com/ansible-collections/dellemc.os10
 git clone https://github.com/val3r1o/os10-backup-restore
