@@ -24,9 +24,9 @@ sudo apt install git
 
 git clone --branch SONiC https://github.com/val3r1o/Dell-startup-ansible
 
-cd Os10/Dell-startup-ansible
+cd Dell-startup-ansible
 
-chmod 755 initialize.sh
+sudo chmod 755 initialize.sh
 
 ./initialize.sh
 
