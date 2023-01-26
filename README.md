@@ -23,7 +23,7 @@ sudo apt update
 
 sudo apt install git
 
-git clone https://github.com/val3r1o/os10-startup-ansible.git
+git clone https://github.com/val3r1o/Dell-startup-ansible.git
 
 cd Dell-startup-ansible
 
